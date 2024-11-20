@@ -36,7 +36,11 @@ The dataset used is the `Breast Cancer Wisconsin (Diagnostic)` dataset, which in
 
 - `Mean Radius`: The mean of the distances from the center to points on the perimeter.
 - `Mean Texture`: Standard deviation of gray-scale values in the image.
+
 And more…
+
+![image](https://github.com/user-attachments/assets/3a85a7a5-b04e-46f6-a3da-26684d9c3976)
+
 
 #### Key Steps:
 - Checked for missing values ❌.
@@ -67,6 +71,8 @@ A `Logistic Regression` model is trained on the dataset to classify the tumors i
 ##### Make predictions
     - y_pred = logistic_regression.predict(X_test)
 
+![image](https://github.com/user-attachments/assets/8d165147-0240-43bb-b4db-6ae57f5a749a)
+
 
 ## 📈 Model Evaluation
 
@@ -91,6 +97,9 @@ We used SHAP (Shapley Additive Explanations) to interpret the model's decision-m
 ##### Visualize feature importance
    - shap.summary_plot(shap_values, X_test)
 
+![image](https://github.com/user-attachments/assets/7e45a4a8-5929-4e75-8f40-1d589c895c76)
+
+
 This visualization helps identify the features that contribute most to the prediction, which can guide doctors in making better-informed decisions based on the model's output.
 
 ## 📊 Visualizations
@@ -106,6 +115,7 @@ The following visualizations were created to better understand the dataset and t
    - sns.pairplot(df, hue="target", vars=["mean radius", "mean texture", "mean perimeter", "mean area"], diag_kind="kde")
    - plt.show()
 
+![image](https://github.com/user-attachments/assets/8632667f-70a1-44e9-a012-a0597544346e)
 
 ## 🌍 Real-World Insights
 - `Early Detection`: The features used in the model (e.g., mean radius, mean area) are crucial for early-stage cancer detection.
