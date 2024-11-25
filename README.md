@@ -17,6 +17,11 @@ This project uses logistic regression to predict whether a breast cancer tumor i
 
 This project aims to predict the nature of breast cancer tumors (benign or malignant) using various medical features. We use a Logistic Regression model to classify the data and evaluate its performance. Additionally, SHAP (Shapley Additive Explanations) is used to explain the model's predictions and interpret feature importance.
 
+![image](https://github.com/user-attachments/assets/60063eb5-68e4-430c-a872-b84193cb60cc)
+
+![image](https://github.com/user-attachments/assets/ee8b4b88-88b8-4988-bb05-2ec83b058487)
+
+
 
 ## 🛠️ Project Setup
 To get started with this project, follow these steps:
